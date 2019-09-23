@@ -1,7 +1,7 @@
-FROM ubuntu:14.04
+FROM ubuntu:18.04
 MAINTAINER "Phillip Shipley" <phillip_shipley@sil.org>
 
-ENV REFRESHED_AT 2015-05-11
+ENV REFRESHED_AT 2019-09-23
 
 RUN mkdir -p /data
 VOLUME ["/data"]
